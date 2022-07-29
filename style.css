@@ -1,0 +1,785 @@
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.mainContainer {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.mainContainer .first {
+    width: 40%;
+}
+
+.mainContainer .first .logo {
+    margin-bottom: 80px;
+    margin-top: 70px;
+}
+
+.mainContainer .first h4 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 80px;
+    letter-spacing: 0.02em;
+    color: #1F2937;
+    margin-bottom: 100px;
+    font-family: 'Playfair Display';
+}
+
+.mainContainer .first h4 span {
+    color: #8B5CF6;
+}
+
+.mainContainer .first hr {
+    height: 1px;
+    background: #1F2937;
+    border: 2px solid #1F2937;
+    margin-bottom: 40px;
+    width: 52%;
+}
+
+.mainContainer .first .footer {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainContainer .first .footer .footer1 span {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: #1F2937;
+    margin-right: 20px;
+}
+
+.mainContainer .first .footer .footer2 span {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: #A7ACB3;
+    margin-right: 20px;
+}
+
+
+
+.third {
+    width: 30%;
+    position: absolute;
+    top: 73%;
+    left: 50%;
+}
+
+.innerThird {
+    position: relative;
+    padding-top: 40px;
+}
+
+.clockContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 95%;
+    position: relative;
+    background: linear-gradient(90deg, #B899FF -1.13%, #8B5CF6 101.43%);
+    padding: 10px 0px;
+}
+
+.container h1 {
+    color: #FFFFFF;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 49px;
+    line-height: 140%;
+}
+
+.container .time {
+    display: flex;
+    align-items: center;
+    padding-left: 15%;
+}
+
+.container .time span {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-left: 13px;
+}
+
+.third .third1 {
+    position: absolute;
+    top: 0;
+    padding: 10px 0;
+    width: 100%;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-right: 20px;
+}
+
+.third .third1 span {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #8B5CF6;
+}
+
+.third .third1 p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+    color: #8B5CF6;
+}
+
+.my-slider {
+    
+}
+
+.fixedWidth .navFirst {
+    padding-left: 10px;
+    padding-right: 30px;
+    background: #A78BFA;
+    box-shadow: 8px 0px 60px rgba(109, 40, 217, 0.15);
+}
+
+.fixedWidth .navFirst h4 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.fixedWidth .navFirst hr {
+    width: 100%;
+    border: 1px solid #FFFFFF;
+}
+
+.fixedWidth .navFirst .prise {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.fixedWidth .navFirst .prise p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+    padding: 3px 5px;
+    background: #8B5CF6;
+    border-radius: 20px;
+}
+
+.fixedWidth .navFirst .prise span {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.fixedWidth .navFirst .img img {
+    width: 100%;
+}
+
+.fixedWidth .navFirst .button {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.fixedWidth .navFirst .button p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+    padding-bottom: 7px;
+}
+
+.fixedWidth .navFirst .button a img {
+    margin-left: 20px;
+}
+
+.navFooter {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.navFooter a {
+    background: linear-gradient(90deg, #B899FF -1.13%, #8B5CF6 101.43%);
+    padding: 20px 60px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.mainCity {
+    position: relative;
+    height: 96vh;
+}
+
+.mainCity .city1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.mainCity .city2 {
+    bottom: 50px;
+    left: 200px;
+    width: 50%;
+    position: absolute;
+    padding: 80px 60px;
+    background: #F5F3FF;
+}
+
+.mainCity .city2 .button {
+    margin-bottom: 50px;
+}
+
+.mainCity .city2 .button a {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #ECFDF5;
+    padding: 20px 60px;
+    background: #8B5CF6;
+    text-decoration: none;
+}
+
+.mainCity .city2 h4 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    color: #8B5CF6;
+    margin-bottom: 10px;
+}
+
+.mainCity .city2 p {
+    font-family: 'Work Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: #A78BFA;
+    margin-bottom: 30px;
+}
+
+.mainCity .city2 .city2Span {
+    margin-bottom: 50px;
+}
+
+.mainCity .city2 .city2Span p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 0;
+    color: #A78BFA;
+}
+
+.mainCity .city2 .city2Span p span {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #8B5CF6;
+}
+
+.mainCity .city2 .cityFooter a {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: #8B5CF6;
+    border: 1.5px solid #8B5CF6;
+    background: transparent;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.mainCity .city3 {
+    top: 0;
+    position: absolute;
+    right: 0;
+    background: url(18137_adobespark.png);
+    filter: drop-shadow(-30px 0px 50px rgba(43, 25, 83, 0.15));
+}
+
+.mainFooter {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    margin: 0 auto;
+    margin: 100px 0;
+
+}
+
+.mainFooter .footer1 {
+    display: flex;
+    align-items: flex-start;
+    width: 20%;
+}
+
+.mainFooter .footer1 img {
+    margin-right: 10px;
+}
+
+.mainFooter .footer1 .innerFooter h4 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    color: #8B5CF6;
+    margin-bottom: 7px;
+}
+
+.mainFooter .footer1 .innerFooter p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    color: #3A2160;
+}
+
+.mainFooter .footer2 {
+    display: flex;
+    gap: 4rem;
+    width: 21%;
+}
+
+.mainFooter .footer2 .innerFooter2 h4 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #1F2937;
+    margin-bottom: 18px;
+}
+
+.mainFooter .footer2 .innerFooter2 p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #1F2937;
+    margin-bottom: 18px;
+}
+
+.mainFooter .footer3 h4 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #1F2937;
+    margin-bottom: 18px;
+}
+
+.mainFooter .footer4 {
+    width: 24%;
+}
+
+.mainFooter .footer4 h4 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 140%;
+    color: #1F2937;
+    margin-bottom: 35px;
+}
+
+.mainFooter .footer3 {
+    width: 26%;
+}
+
+.mainFooter .footer3 .innerFooter3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.mainFooter .footer3 .innerFooter3 img {
+    margin-right: 10px;
+}
+
+.mainFooter .footer3 .innerFooter3 span {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #1F2937;
+}
+
+.input-data{
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.input-data input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 1.5px solid #1F2937;
+    outline: none;
+}
+
+.input-data input:focus ~ label,
+.input-data input:valid ~ label{
+    transform: translateY(-20px);
+    font-size: 15px;
+    color: #4158d0;
+}
+
+.input-data label{
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #A1ACBB;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-data label img {
+    width: 15px;
+    height: 10px;
+}
+
+.input-data .underline{
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    width: 100%;
+}
+
+.input-data .underline:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #4158d0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before{
+    transform: scaleX(1);
+}
+
+.tns-controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tns-controls button {
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    background: #4158d0;
+    border: none;
+    color: #FFFFFF;
+    bottom: 170px;
+    z-index: 2;
+    right: 100px;
+}
+
+.tns-outer {
+    position: relative;
+}
+
+.tns-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.tns-nav button {
+    padding: 7px;
+    border-radius: 100%;
+    background: #1F2937;
+    margin-right: 3px;
+}
+
+
+
+
+@media (max-width:1200px) {
+    .mainContainer .second {
+        display: none;
+    }
+
+    .mainContainer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mainContainer .first {
+        width: 60%;
+        text-align: center;
+    }
+
+    .mainContainer .first hr {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .mainContainer .first .footer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        margin-top: 50px;
+    }
+
+    .mainContainer .first h4 {
+        margin-bottom: 60px;
+    }
+
+    .mainContainer .first h4 br {
+        display: none;
+    }
+
+    .mainContainer .third {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 40%;
+    }
+
+    .innerThird {
+        padding-top: 10px;
+    }
+
+    .third .third1 {
+        display: block;
+        text-align: center;
+        position: relative;
+        padding-bottom: 10px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav .navFirst {
+        width: 44%;
+        margin-top: 60px;
+    }
+
+    .mainCity {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .mainCity .city1 {
+        display: none;
+    }
+
+    .mainCity .city3 {
+        display: none;
+    }
+
+    .mainCity .city2 {
+        width: 60%;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+    }
+
+    .mainFooter {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mainFooter .footer1 {
+        width: 24%;
+    }
+
+    .mainFooter .footer2 {
+        width: 24%;
+        gap: 2rem;
+    }
+
+    .mainFooter .footer3 {
+        width: 30%;
+    }
+
+    .mainFooter .footer4 {
+        width: 20%;
+    }
+}
+
+@media (max-width:830px) {
+    .mainFooter {
+        display: block;
+    }
+
+    .mainFooter .footer1 {
+        width: 31%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .mainFooter .footer2 {
+        width: 47%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+
+    .mainFooter .footer2 .innerFooter2 {
+        text-align: center;
+    }
+
+    .mainFooter .footer3 {
+        width: 40%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .mainFooter .footer3 .innerFooter3 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .mainFooter .footer4 {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .input-data .underline{
+        width: 0%;
+    }
+}
+
+@media (max-width:780px) {
+    .mainContainer .first {
+        width: 100%;
+        padding-top: 200px;
+    }
+
+    .mainContainer .third {
+        width: 100%;
+    }
+
+    .mainContainer .third .time {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+    }
+
+    nav .navFirst {
+        width: 100%;
+        margin-top: 60px;
+        bottom: 0;
+        position: relative;
+    }
+
+    .mainCity .city2 {
+        width: 100%;
+        padding: 0px;
+        padding-top: 50px;
+    }
+
+    .cityFooter {
+        margin-bottom: 40px;
+    }
+
+    .mainFooter .footer1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .mainFooter .footer2 {
+        width: 70%;
+    }
+
+    .input-data .underline{
+        width: 0%;
+    }
+    
+
+
+}
+
